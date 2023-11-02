@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
 
-        title="Prueba conexión QuickPay"
+        title="Prueba conexión QuickPay demostrando"
 
         registroUsuarioViewModel = ViewModelProvider(this).get(RegistroUsuarioViewModel::class.java)
 
